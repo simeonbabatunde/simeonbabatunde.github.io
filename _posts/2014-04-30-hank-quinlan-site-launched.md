@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Simeon Babatunde's Blog"
+title: "First Blog Post"
 date: 2014-04-30
 ---
 
