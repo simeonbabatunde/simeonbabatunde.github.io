@@ -1,2 +1,3 @@
 name: Simeon Babatunde
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
