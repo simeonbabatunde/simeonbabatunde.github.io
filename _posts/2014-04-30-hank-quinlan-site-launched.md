@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Simeon Babatunde, Launches Site"
+title: "Simeon Babatunde's Blog"
 date: 2014-04-30
 ---
 
