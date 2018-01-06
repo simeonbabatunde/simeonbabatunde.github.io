@@ -17,12 +17,8 @@
     <![endif]-->
     {% include head.html %}
   </head>
-  <body>
-  {% if site.data.theme.color == "default" %}
-    <div class="navbar navbar-default navbar-static-top">
-  {% else %}
+  <body class="mainbg">
     <div class="navbar navbar-inverse navbar-static-top">
-  {% endif %}
       <div class="container">
         <div class="navbar-header">
           <div class="navbar-toggle-wrapper visible-xs">
@@ -44,21 +40,18 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="contain">
       <div class="row">
-        {% if page.hide_sidebar or site.data.theme.hide_sidebar %}
-          <div class="col-sm-12">
-            {{ content }}
-          </div>
-        {% else %}
-          <div class="col-sm-8">
-            {{ content }}
-          </div>
-          <div class="col-sm-4">
-            {% include sidebar.html %}
-          </div>
-        {% endif %}
+          <!-- <div class="col-sm-12"> -->
+            <div class="col-sm-4">
+              {% include sidebar.html %}
+            </div>
+            <div class="col-sm-8">
+              {{ content }}
+            </div>
+          <!-- </div> -->
       </div>
+
       <div class="row footer">
         <div class="col-sm-12 text-center">
           {% include footer.html %}
