@@ -18,9 +18,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
+      type: "projects"
     values:
-      layout: "default"
+      layout: "page"
   -
     scope:
       path: ""
