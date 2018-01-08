@@ -1,5 +1,6 @@
 ---
 title: "Shiori by Example: Helpful Bootstrap Components"
+hide_sidebar: true
 ---
 
 With Shiori, you can take advantage of all the available components in Bootstrap. Here are some useful components for blogging.

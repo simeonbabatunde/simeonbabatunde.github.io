@@ -97,9 +97,10 @@ h4.compact{
 }
 .section-header-archive {
   margin-top: 0;
+  text-align: center;
 }
 .section-header-archive ~ .section-header-archive {
-  margin-top: $space-md;
+  margin-top: $space-xs;
 }
 
 .post-header {
@@ -157,6 +158,11 @@ h4.compact{
 
 .page-archive {
   margin-bottom: $space-md;
+}
+
+#inner{
+  width: 100%;
+  margin: 0 auto;
 }
 
 .footer {
@@ -313,6 +319,21 @@ img {
 
 #myfluid{
   margin-top: 0.8em;
+}
+#container_row{
+  margin-top: 0.7em;
+}
+
+.text-muted{
+  font-size: 0.85em;
+}
+
+.blogtitle{
+  text-align:center;
+  margin-top: 0;
+}
+.postcenter{
+  text-align: center;
 }
 
 
