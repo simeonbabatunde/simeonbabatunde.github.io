@@ -6,8 +6,12 @@ title: "Simeon Babatunde"
 description: "This is the personal website of Simeon Babatunde. Here, you'll find the
               latest information on his research, projects and blog posts."
 
-gems:
+plugins:
+  - jekyll-sitemap
   - jemoji
+
+# gems:
+#   - jemoji
 exclude:
   - "README.md"
   - "CHANGELOG.md"
@@ -28,5 +32,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-plugins:
-  - jekyll-sitemap
