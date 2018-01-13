@@ -8,7 +8,7 @@ hide_sidebar: true
 </p>
 
 
-Hi folks, trust you are having a good one. I just felt like writing a brief post on the implementation of button interrupt using the MSP430FR5969 Launchpad by Texas Instrument. Detailed information can be found [here](http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_PushButton).
+Hi folks, I just felt like writing a brief post on the implementation of button interrupt using the MSP430FR5969 Launchpad by Texas Instrument. Detailed information can be found [here](http://processors.wiki.ti.com/index.php/MSP430_LaunchPad_PushButton).
 
 I'll be using the S2 button (P1.1) as the source of the interrupt. The LED2 (P1.0) turns on/off whenever interrupt occurs. We'll cater to two use cases in this post.
 
