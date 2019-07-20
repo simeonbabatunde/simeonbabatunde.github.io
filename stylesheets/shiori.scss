@@ -3,11 +3,11 @@
 
 $container-large-desktop: 970px;
 
-$font-family-base: "Source Sans Pro",helvetica,sans-serif;
-$headings-font-family: "Source Sans Pro",helvetica,sans-serif;
+$font-family-base: Lato,sans-serif;
+$headings-font-family: Lato,sans-serif;
 $headings-font-weight: 500;
 
-$font-size-base: 16px;
+$font-size-base: 18px;
 $font-size-h1: floor(($font-size-base * 2));
 $font-size-h2: floor(($font-size-base * 1.3));
 $font-size-h3: floor(($font-size-base * 1));
@@ -75,7 +75,7 @@ h3 {
 h4.myh4 {
   margin-top: $line-height-computed * 0.1;
   margin-bottom: $line-height-computed * 0.25;
-  color: #169d82;
+  color: #404950;
 }
 h4.compact{
   margin-top: 0.8em;
@@ -221,7 +221,7 @@ h4.compact{
 }
 .myh2{
   font-weight: 505;
-  color: #169d82;
+  color: #404950;
   margin-top: 1em;
 }
 .mhov a:hover{
@@ -281,8 +281,8 @@ hr.myline {
     margin-right: auto;
     // border-style: inset;
     height: 0.03em;
-    color: #169d82;
-    background-color:#169d82;
+    color: #404950;
+    background-color:#404950;
 }
 
 span.right{
@@ -290,7 +290,7 @@ span.right{
 }
 
 .span_date{
-  color: #169d82;
+  color: #404950;
 }
 
 .portfolio-details{
