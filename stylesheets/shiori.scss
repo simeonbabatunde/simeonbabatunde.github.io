@@ -3,11 +3,11 @@
 
 $container-large-desktop: 970px;
 
-$font-family-base: Lato,sans-serif;
-$headings-font-family: Lato,sans-serif;
+$font-family-base: "proxima nova",montserrat,"lucida grande","lucida sans unicode","lucida sans",Geneva,Verdana,sans-serif;
+$headings-font-family: "proxima nova",montserrat,"lucida grande","lucida sans unicode","lucida sans",Geneva,Verdana,sans-serif;
 $headings-font-weight: 500;
 
-$font-size-base: 18px;
+$font-size-base: 17px;
 $font-size-h1: floor(($font-size-base * 2));
 $font-size-h2: floor(($font-size-base * 1.3));
 $font-size-h3: floor(($font-size-base * 1));
