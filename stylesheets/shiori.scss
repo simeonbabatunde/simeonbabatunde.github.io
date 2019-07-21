@@ -76,6 +76,7 @@ h4.myh4 {
   margin-top: $line-height-computed * 0.1;
   margin-bottom: $line-height-computed * 0.25;
   color: #404950;
+  font-weight: bold;
 }
 h4.compact{
   margin-top: 0.8em;
@@ -242,6 +243,7 @@ p.compact{
   font-size: 0.92em;
   margin-top: 0;
   margin-bottom: 0;
+  font: $font-family-base;
 }
 
 p.compact1{
